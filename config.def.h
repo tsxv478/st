@@ -112,6 +112,7 @@ float alpha = 1.0;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
+	/* gruvbox */
 	/* 8 normal colors */
 	"#1d2021",
 	"#cc241d",
@@ -132,13 +133,37 @@ static const char *colorname[] = {
 	"#8ec07c",
 	"#ebdbb2",
 
+	/* tokyonight */
+	/* 8 normal colors */
+    /* "#15161e", */
+    /* "#f7768e", */
+    /* "#9ece6a", */
+    /* "#e0af68", */
+    /* "#7aa2f7", */
+    /* "#bb9af7", */
+    /* "#7dcfff", */
+    /* "#a9b1d6", */
+
+    /* 8 bright colors */
+    /* "#414868", */
+    /* "#f7768e", */
+    /* "#9ece6a", */
+    /* "#e0af68", */
+    /* "#7aa2f7", */
+    /* "#bb9af7", */
+    /* "#7dcfff", */
+    /* "#c0caf5", */
+
+
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#555555",
-	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+	"#ebdbb2",  /* gruvbox foreground colour */
+	"#1d2021",  /* gruvbox background colour */
+	"#c0caf5",  /* tokyonight foreground colour */
+	"#1a1b26",  /* tokyonight background colour */
 };
 
 

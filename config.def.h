@@ -133,26 +133,26 @@ static const char *colorname[] = {
 	"#8ec07c",
 	"#ebdbb2",
 
-	/* tokyonight */
+	/* onedark */
 	/* 8 normal colors */
-    /* "#15161e", */
-    /* "#f7768e", */
-    /* "#9ece6a", */
-    /* "#e0af68", */
-    /* "#7aa2f7", */
-    /* "#bb9af7", */
-    /* "#7dcfff", */
-    /* "#a9b1d6", */
+	/* "#1e2127", */
+	/* "#e06c75", */
+	/* "#98c379", */
+	/* "#e5c07b", */
+	/* "#61afef", */
+	/* "#c678dd", */
+	/* "#56b6c2", */
+	/* "#abb2bf", */
 
-    /* 8 bright colors */
-    /* "#414868", */
-    /* "#f7768e", */
-    /* "#9ece6a", */
-    /* "#e0af68", */
-    /* "#7aa2f7", */
-    /* "#bb9af7", */
-    /* "#7dcfff", */
-    /* "#c0caf5", */
+	/* 8 bright colors */
+	/* "#5c6370", */
+	/* "#e06c75", */
+	/* "#98c379", */
+	/* "#e5c07b", */
+	/* "#61afef", */
+	/* "#c678dd", */
+	/* "#56b6c2", */
+	/* "#ffffff", */
 
 
 	[255] = 0,
@@ -162,8 +162,8 @@ static const char *colorname[] = {
 	"#555555",
 	"#ebdbb2",  /* gruvbox foreground colour */
 	"#1d2021",  /* gruvbox background colour */
-	"#c0caf5",  /* tokyonight foreground colour */
-	"#1a1b26",  /* tokyonight background colour */
+	"#abb2bf",  /* onedark foreground colour */
+	"#1e2127",  /* onedark background colour */
 };
 
 
